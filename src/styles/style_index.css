@@ -1,0 +1,159 @@
+/*Geral*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  }
+html {
+    font-size: 100%;
+}
+body, html{
+    height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    font-size: 1.6rem;
+}
+/*-------------------------------------------------------------------*/
+/*************SLIDER**************/
+/*imagens do corrocel (seguir padrao de tamanho 1902x714)*/
+.carousel-inner img{
+    position: relative;
+    margin:auto;
+    width: 100%;
+    max-width: 1500px;
+}
+/*Coloca o corrocel para traz do menu*/
+Section div .carousel {
+    position: relative;
+    z-index: 1;
+}
+/*indacador lateral direito do slider*/
+section .carousel-control-prev-icon {
+    width: 50px;
+    height: 30px;
+}
+/*indacador lateral esquerdo do slider*/
+section .carousel-control-next-icon {
+    width: 50px;
+    height: 30px; 
+}
+/*indicadores inferiores do slider*/
+section .carousel-indicators li {
+    width: 50px;
+    height: 4px;
+    background-color: rgb(0, 174, 255);
+}
+/*-------------------------------------------------------------------------*/
+/*****************MENU 2****************/
+/*Div principal*/
+section .menu2 {
+    position: relative;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 2px 5px rgb(172, 172, 172);
+}
+/*div-2 com largura do site (com grid 6 colunas 1 linha)*/ 
+section .menu2 .containner {
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+/*div com itens dentro*/
+section .menu2 .containner .section {
+    padding: 20px;
+}
+/*div com icone*/
+section .menu2 .containner .section  {
+    position: relative;
+    text-align: center;
+}
+/*imagem*/
+section .menu2 .containner .section img {
+    width: 40px;
+}
+/*div com link*/
+section .menu2 .containner .section .texto {
+    position: relative;
+    padding-top: 10px;
+}
+/*link(texto)*/
+section .menu2 .containner .section .texto a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+/*Hover da section*/
+section .menu2 .containner .section:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(43, 43, 43) 0px 0px 1px;
+}
+/*hover do texto*/
+section .menu2 .containner .section .texto a:hover {
+    color: rgb(128, 128, 128);
+}
+/*hover do icon*/
+section .menu2 .containner .section a img:hover {
+    filter: contrast(10%);
+}
+/*------------------------------------------------------------------------------*/
+/*************Corpo do site, PROCESSADORES, MONITOR, MEMORIAS***************/
+section .containner {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+/*Bloco do containner*/
+section .containner .bloco{
+    display: flex;
+}
+/*img do bloco*/
+section .containner .bloco img {
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*bloco do paragrafo*/
+section .containner .bloco .paragrafo {
+    position: relative;
+    display: block;
+}
+/*div do paragrafo*/
+section .containner .bloco .paragrafo div {
+    margin-top: 130px;
+    margin-left: 150px; 
+}
+/*Paragrafos*/
+section .containner .bloco .paragrafo div span {
+    display: block;
+}
+/*"Veja mais" do paragrafo*/
+section .containner .bloco .paragrafo div span h4{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+/*Tira sublinhado do link "veja mais" */
+section .containner .bloco .paragrafo span a {
+    text-decoration:none;
+}
+/*div do paragrafo do meio*/
+section .containner .bloco_do_meio .bloco .paragrafo div {
+    margin-top: 150px;
+    margin-left: unset;
+    margin-right: 50px;
+}
+/*posiciona img a direita do bloco do meio*/
+section .containner .bloco_do_meio .bloco .img {
+    width: 500px;
+}
+/*Img incia desativada e atiavada posteriormente na responsividade*/
+section .containner .bloco_do_meio .bloco .img_resp {
+    display: none;
+}

@@ -1,0 +1,30 @@
+/*******************Rodapé*******************/
+footer {
+    position: absolute;
+    background-color:#161616;
+    width: 100%;
+    clear: both;
+    padding: 20px 0;
+    border-top: rgb(0, 140, 255) solid 4px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+/*div do rodapé*/
+footer .footer {
+    width: 90%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+/*Cor do texto*/
+footer .footer span {
+    color: rgb(206, 206, 206);
+}
+/*Icones*/
+footer div a {
+    color: #868686;
+    font-size: 1.3rem;
+    padding: 10px; 
+    transition: all .5s ease;
+}

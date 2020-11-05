@@ -1,0 +1,192 @@
+/*Responsivo da página login*/
+@media (max-width: 1075px) {
+
+    .title {
+        font-size: 1.5em ;        
+    }
+    
+    #login {
+        width: 70%;
+        padding: 2.5%;
+    } 
+
+    #cadastro{
+        width: 70%;
+        padding: 2.5%;
+    }
+
+    .submit button {
+        width: 35%;
+        height: 20%;
+        font-size: 0.8em;
+        padding: 0.4em;
+    }
+
+    .submit a {
+        font-size: 0.95em;
+    }
+
+    /* SignIn small text */
+     #cadastro small {
+        font-size: 0.725em;
+    } 
+
+    
+}
+
+@media (max-width: 991px) {
+    div.col-10.ml-3.mt-3{
+        padding: 0px!important;
+    }
+
+    .title {
+        font-size: 1.5em ;        
+    }
+    
+    #login {
+        width: 70%;
+        padding: 2.5%;
+    } 
+
+    #cadastro{
+        width: 70%;
+        padding: 2.5%;
+    }
+
+    .submit button {
+        width: 45%;
+        height: 30%;
+        font-size: 0.7em;
+        padding: 0.4em;
+    }
+
+    .submit a {
+        font-size: 0.75em;
+    }
+
+    /* SignIn small text */
+     #cadastro small {
+        font-size: 0.6725em;
+        line-height: 1.5em;
+        
+    } 
+}
+
+@media (max-width: 790px) {
+    div.col-10.ml-3.mt-3{
+        padding: 0px!important;
+    }
+    
+    input.form-control{
+        height: 30px;
+        font-size: 0.75em;
+    }
+
+    .title {
+        font-size: 1em ;        
+    }
+    
+    #login {
+        width: 50%;
+        padding: 2.5%;
+    } 
+
+    #cadastro{
+        width: 70%;
+        padding: 2.5%;
+    }
+
+    .submit button {
+        width: 80px;
+        height: 25px;
+        font-size: 0.6em;
+        padding: 0.2em;
+    }
+
+    .submit a {
+        font-size: 0.5em;
+        
+    }    
+}
+
+@media (max-width: 500px) {
+    div.col-10.ml-3.mt-3{
+        padding: 0px!important;
+        margin: 0;
+    }
+    input.form-control{
+        height: 5vh;
+        font-size: 0.75em;
+    }
+
+    .title {
+        font-size: 0.899em ;        
+    }
+    
+    #login {
+        width: 70%;
+        padding: 2.5%;
+    } 
+    #login form {
+        margin-top: 10px;
+    }
+
+    #cadastro{
+        width: 70%;
+        padding: 2.5%;
+    }
+
+    .submit {
+        flex-direction: column-reverse;        
+    } 
+
+    #eye, #eyeCadastro {
+        width: 4vw;
+        height: 8vh;
+        transform: translate(625%,-20%);
+    }
+
+    .submit a {
+        font-size: 70%;
+        margin-bottom: 10%;
+        
+    }   
+    #loginPage{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150vh;
+    }
+
+    #login{
+        height: 80vh;
+        margin: auto;
+        width: 100%;
+    }
+    #cadastro{
+        width: 100%;
+        height: 100%;
+    }
+    #cadastro button {
+        margin: 0;
+    }
+}
+@media (max-width: 320px) {
+    #loginPage{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150vh;
+    }
+
+    #login{
+        margin-bottom: 10vh;
+        width: 100%;
+        height: 30%;
+    }
+    #cadastro{
+        width: 100%;
+        height: 70%;
+    }
+
+}

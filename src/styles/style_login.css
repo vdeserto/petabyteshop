@@ -1,0 +1,103 @@
+
+/* O corpo da página de Login */
+#loginPage {    
+    border: 2px solid #0000005b;
+    margin-bottom: 30%; 
+    padding-left: 0%;   
+    padding-right: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80vw;
+    max-width: 980px;
+    max-height: 725px;   
+}
+
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+
+#login {
+    width: 70%;
+    padding: 2.5%;
+    min-width: 50%;
+} 
+
+ /* Login spacement */
+div.form-group {
+    margin-top: 10%;
+}
+
+/* Login Password Input */
+#senhaLogin, #senhaCadastro{
+    box-sizing: border-box;
+    display: flex;
+    padding-right: 5%;
+}
+
+/* Password Field */
+#passwordField {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Show Password */
+#eye, #eyeCadastro {
+    transform: translate(-125%,-50%);
+    position: absolute;
+    cursor: pointer;
+    width: 7.5%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Div that contains Login and Submit */
+.submit {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+/* Login Forgot Password */
+#login a {
+    text-decoration: none;
+    color: rgb(0, 78, 245);   
+}
+
+/* Login Forgot Password (Hover State) */
+#login a:hover {
+    color: (0px 0px 2px rgb(0, 81, 255));
+    filter: drop-shadow(0px 0px 2px rgb(187, 208, 255));
+}
+
+/* SignIn display form */
+#cadastro {
+    background-color:#0000002e;
+    display: flex;
+    margin-right: 0%;
+    padding: 2.5%;
+    
+    
+}
+/* SignIn div */
+
+/* SignIn Password */
+#senhaCadastro {
+    box-sizing: border-box;
+    display: flex;
+}
+/* SignIn small text */
+#cadastro small {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* SignIn Btn */
+#cadastro button {
+    margin-top: 5%;
+}

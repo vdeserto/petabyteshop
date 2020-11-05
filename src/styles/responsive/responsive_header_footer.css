@@ -1,0 +1,58 @@
+@media (max-width: 1075px) {
+    header .cabecalho nav .lista_form form input {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 991px) {
+    header .cabecalho nav .logo {
+        display: none;
+    }
+    .grow:hover {
+        transform: scale(1.0);
+    }
+    header .cabecalho nav .acesso {
+        margin: 0;
+    }
+    header .cabecalho nav .lista_form ul li a {
+        font-size: 0.9rem;
+    }
+    header .cabecalho nav .lista_form form input {
+        width: 70vw;
+    }
+    header .cabecalho nav .lista_form {
+        margin: 0;
+    }
+
+    header .cabecalho .logo2 {
+        display: inline;
+        width: 130px;  
+    }
+}
+
+@media (max-width: 790px) {
+    header .cabecalho nav .lista_form form input {
+        width: 60vw;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    header .cabecalho nav .acesso a img {
+        width: 20px;
+    }
+    
+    header .cabecalho nav .lista_form form input {
+        width: 50vw;
+    }
+    header .cabecalho .logo2 {
+        width: 100px;  
+    }
+
+    header .cabecalho .acesso div .text {
+        display: none;
+    }
+    header .cabecalho .acesso div a {
+        padding-left: 15px;
+    }
+}

@@ -1,4 +1,6 @@
 import { createApp } from "vue";
-import App from "./App.vue";
+// import Home from "./pages/Home.vue";
+import Login from "./pages/Login.vue";
 
-createApp(App).mount("#app");
+// createApp(Home).mount("#app");
+createApp(Login).mount("#app");
